@@ -1,7 +1,7 @@
 function Work(props) {
   // Work Section
   return (
-    <div className="h-96 flex flex-row justify-center pt-10 mb-52 sm:mb-32 md:mb-24">
+    <div className="h-96 flex flex-row justify-center pt-10 mb-60 sm:mb-32 md:mb-24">
       <div className="flex flex-col items-center">
         <div className="text-center w-3/5">
           <div className="text-[#12141D] font-bold text-3xl pb-3">
