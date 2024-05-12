@@ -1,6 +1,7 @@
 function Cybersecurity(props) {
+  // Cyber Security Section
   return (
-    <div className="bg-[#F9FAFC] pt-10">
+    <div className="bg-[#F9FAFC] pt-10 pb-10 sm:pb-5 lg:pb-0">
       <div className="flex flex-col justify-center items-center gap-4">
         <div className="text-center font-semibold text-3xl w-5/6 sm:w-3/4 lg:w-1/3 lg:px-6">
           Cyber Security Penetration Testing Data
@@ -14,15 +15,15 @@ function Cybersecurity(props) {
       <div className="flex flex-col sm:flex-row w-3/4 m-auto">
         <div className="flex flex-col justify-center items-center">
           <div className="relative ">
-            <img src="./images/monthly.svg" alt="" className="" />
+            <img src="./images/monthly.svg" alt="" className="mb-3 sm:mb-0" />
             <img
               src="./images/userdata.svg"
               alt=""
-              className="sm:absolute sm:top-16 sm:-left-20 sm:h-4/5 sm:-mt-0 -mt-20"
+              className="sm:absolute sm:top-16 sm:-left-20 sm:h-4/5 sm:-mt-0 -mt-20 hidden sm:block"
             />
           </div>
         </div>
-        <div className="flex flex-col gap-3 sm:mt-20">
+        <div className="flex flex-col gap-3 sm:mt-20 ">
           {securities.map((item, index) => {
             return (
               <Security
@@ -38,6 +39,7 @@ function Cybersecurity(props) {
   );
 }
 
+// Box Structure
 function Security(props) {
   return (
     <div className="flex flex-row gap-2 justify-center rounded-xl">
@@ -50,6 +52,7 @@ function Security(props) {
   );
 }
 
+// Boxes Contents
 const securities = [
   {
     logo: "./images/easy.svg",
@@ -72,4 +75,3 @@ const securities = [
 ];
 
 export default Cybersecurity;
-export { securities };

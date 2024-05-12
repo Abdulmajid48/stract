@@ -1,5 +1,6 @@
 function Dataservices(props) {
   return (
+    // Data Services Section
     <div>
       <div className="flex flex-col justify-center items-center pb-10">
         <div className="text-center font-semibold text-3xl">
@@ -26,9 +27,10 @@ function Dataservices(props) {
   );
 }
 
+// Box Structure
 function Service(props) {
   return (
-    <div className="flex flex-col gap-3 justify-start w-72 bg-[#FAFAFA] rounded-xl p-3">
+    <div className="flex flex-col gap-3 justify-start w-72 bg-[#FAFAFA] hover:bg-[#2B59FF]   rounded-xl p-3">
       <div>
         <img src={props.logo} alt="" />
       </div>
@@ -38,6 +40,7 @@ function Service(props) {
   );
 }
 
+// Boxes Contents
 const services = [
   {
     logo: "./images/security.svg",
@@ -89,5 +92,3 @@ const services = [
   },
 ];
 export default Dataservices;
-
-export { Service, services };

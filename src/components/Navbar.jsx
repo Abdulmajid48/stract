@@ -19,15 +19,19 @@ function Navbar(props) {
     });
   }
 
+  // Navbar Section
   return (
     <div className="bg-[#12141D] text-white font-normal">
+      {/* For Smaller screen */}
       {matches ? (
         <div className="h-24 sm:w-11/12 flex flex-row justify-between mr-4 ml-4 items-center">
           <div className=" flex flex-row items-center text-xl gap-2">
             <div>
               <img src="./images/logo.svg" alt="" className="h-10" />
             </div>
-            <div className="text-xl text-[#FAFAFA]">Stract</div>
+            <div className="text-[#FAFAFA] font-bold text-3xl align-middle text-center">
+              Stract
+            </div>
           </div>
           <div onClick={setBar}>
             {/* change navbar icon */}
@@ -63,6 +67,7 @@ function Navbar(props) {
               </svg>
             )}
           </div>
+          {/* Navbar Options */}
           <div
             style={{ visibility: bar ? "visible" : "hidden" }}
             className="absolute right-5 top-20 leading-loose bg-white text-black rounded-lg w-44 p-4 h-48 text-left text-lg flex flex-col gap-2 py-4 "
@@ -74,12 +79,14 @@ function Navbar(props) {
           </div>
         </div>
       ) : (
-        //toggle hidden bar
+        //Larger screen
         <div className="h-20 sm:w-11/12 flex flex-row justify-between mr-4 ml-9 items-center">
           <div className=" flex flex-row items-center text-xl gap-2">
-            <div>Stract</div>
+            <div className="font-bold text-3xl align-middle text-center">
+              Stract
+            </div>
           </div>
-          <div className="flex flex-row justify-between gap-4 text-base ml-16 text-[#BAB7B7]">
+          <div className="flex flex-row justify-between gap-4 text-base ml-16 text-[#BAB7B7] ">
             <div>Home</div>
             <div>Service</div>
             <div>Resources</div>
@@ -87,7 +94,7 @@ function Navbar(props) {
           </div>
 
           <div className=" flex flex-row text-lg justify-center gap-4 text-center align-middle">
-            <div className="bg-[#2B59FF] w-40 text-black leading-3 rounded-3xl h-12 flex justify-center flex-row items-center">
+            <div className="bg-[#2B59FF] w-32 leading-3 rounded-3xl h-10 flex justify-center flex-row items-center text-sm text-[#FAFAFA]">
               Contact Us
             </div>
           </div>

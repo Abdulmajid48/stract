@@ -1,0 +1,13 @@
+<svg width="40" height="10" viewBox="0 0 154 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="75" cy="75" r="75" fill="#2B59FF"/>
+<circle cx="134" cy="32" r="18.5" fill="#2B59FF" stroke="white" stroke-width="3"/>
+<path d="M136.472 25.9091V39H134.49V27.8906H134.414L131.282 29.9361V28.044L134.548 25.9091H136.472Z" fill="#FAFAFA"/>
+<path d="M65.8307 67.667H60.3307C58.3141 67.667 56.6641 66.017 56.6641 64.0003V60.3337C56.6641 58.317 58.3141 56.667 60.3307 56.667H65.8307C67.8474 56.667 69.4974 58.317 69.4974 60.3337V64.0003C69.4974 66.017 67.8474 67.667 65.8307 67.667Z" stroke="#FAFAFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M91.1359 65.8333H84.5359C83.3259 65.8333 82.3359 64.8433 82.3359 63.6333V60.7C82.3359 59.49 83.3259 58.5 84.5359 58.5H91.1359C92.3459 58.5 93.3359 59.49 93.3359 60.7V63.6333C93.3359 64.8433 92.3459 65.8333 91.1359 65.8333Z" stroke="#FAFAFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M91.1359 79.5833H84.5359C83.3259 79.5833 82.3359 78.5933 82.3359 77.3833V74.45C82.3359 73.24 83.3259 72.25 84.5359 72.25H91.1359C92.3459 72.25 93.3359 73.24 93.3359 74.45V77.3833C93.3359 78.5933 92.3459 79.5833 91.1359 79.5833Z" stroke="#FAFAFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M69.5 62.167H82.3333" stroke="#FAFAFA" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M75.9141 62.167V86.0003C75.9141 88.017 77.5641 89.667 79.5807 89.667L76.5517 88.0603" fill="white"/>
+<path d="M75.9141 62.167V86.0003C75.9141 88.017 77.5641 89.667 79.5807 89.667L76.5517 88.0603" stroke="#FAFAFA" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M75.9141 75.917H82.3307" stroke="#FAFAFA" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M91.1359 93.3333H84.5359C83.3259 93.3333 82.3359 92.3433 82.3359 91.1333V88.2C82.3359 86.99 83.3259 86 84.5359 86H91.1359C92.3459 86 93.3359 86.99 93.3359 88.2V91.1333C93.3359 92.3433 92.3459 93.3333 91.1359 93.3333Z" stroke="#FAFAFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
